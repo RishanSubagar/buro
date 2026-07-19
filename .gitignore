@@ -141,3 +141,6 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+apps/mobile-web/.expo/types/router.d.ts
+apps/mobile-web/package-lock.json
+apps/mobile-web/.expo/devices.json
