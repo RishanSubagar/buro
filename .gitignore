@@ -47,6 +47,16 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# Expo / React Native
+.expo/
+dist/
+web-build/
+.metro/
+.cache/
+android/
+ios/
+expo-env.d.ts
+
 # Optional npm cache directory
 .npm
 
@@ -141,6 +151,38 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
-apps/mobile-web/.expo/types/router.d.ts
-apps/mobile-web/package-lock.json
-apps/mobile-web/.expo/devices.json
+
+# OS / System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
+.vscode/
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Go (Golang)
+*.a
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+/apps/backend-api/bin/
+/apps/backend-api/dist/
+apps/backend-api/coverage.txt
+apps/backend-api/profile.out
+

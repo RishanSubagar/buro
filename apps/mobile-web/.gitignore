@@ -4,3 +4,42 @@
 
 expo-env.d.ts
 # @end expo-cli
+
+# Expo
+.expo/
+dist/
+web-build/
+node_modules/
+
+# React Native / Metro / Metro Cache
+.metro/
+.cache/
+
+# Local Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Native Android/iOS builds (if prebuilt or generated)
+/android
+/ios
+
+# Security/Credentials
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.provisionprofile
